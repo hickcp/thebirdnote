@@ -1,4 +1,4 @@
-package com.symbol.birdnote.domain.bird;
+package com.symbol.birdnote.dto;
 
 import jakarta.validation.constraints.NotBlank;
 

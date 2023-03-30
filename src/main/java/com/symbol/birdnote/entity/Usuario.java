@@ -1,4 +1,4 @@
-package com.symbol.birdnote.domain.usuario;
+package com.symbol.birdnote.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

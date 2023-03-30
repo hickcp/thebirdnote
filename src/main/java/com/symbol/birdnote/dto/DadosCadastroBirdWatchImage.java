@@ -1,7 +1,6 @@
-package com.symbol.birdnote.domain.birdwatchimage;
+package com.symbol.birdnote.dto;
 
-import com.symbol.birdnote.domain.birdwatch.DadosCadastroBirdWatch;
-import jakarta.validation.constraints.NotBlank;
+import com.symbol.birdnote.dto.DadosCadastroBirdWatch;
 
 import java.time.LocalDateTime;
 

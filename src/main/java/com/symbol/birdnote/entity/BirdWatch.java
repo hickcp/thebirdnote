@@ -1,7 +1,5 @@
-package com.symbol.birdnote.domain.birdwatch;
+package com.symbol.birdnote.entity;
 
-import com.symbol.birdnote.domain.bird.Bird;
-import com.symbol.birdnote.domain.usuario.Usuario;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

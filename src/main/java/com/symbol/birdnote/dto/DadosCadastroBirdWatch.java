@@ -1,9 +1,5 @@
-package com.symbol.birdnote.domain.birdwatch;
+package com.symbol.birdnote.dto;
 
-import com.symbol.birdnote.domain.bird.Bird;
-import com.symbol.birdnote.domain.bird.DadosCadastroBird;
-import com.symbol.birdnote.domain.usuario.DadosCadastroUsuario;
-import com.symbol.birdnote.domain.usuario.Usuario;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 

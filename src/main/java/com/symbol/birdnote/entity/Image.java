@@ -1,4 +1,4 @@
-package com.symbol.birdnote.domain.bird;
+package com.symbol.birdnote.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -6,16 +6,18 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+@Embeddable
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
-@EqualsAndHashCode(of = "idBird")
-@Table(name = "BIRD")
-@Entity(name = "bird")
-public class Bird {
+@EqualsAndHashCode(of = "idImage")
+@Entity(name = "image")
+@Table(name = "IMAGE")
+public class Image {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long idBird;
+    private Long idImage;
 
-    private String nomeCientifico;
+    private String imagemPath;
 }
