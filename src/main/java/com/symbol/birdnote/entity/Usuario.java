@@ -1,16 +1,14 @@
 package com.symbol.birdnote.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Table(name="USUARIO")
 @Entity(name="usuario")
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 @EqualsAndHashCode(of = "idUsuario")
 @Embeddable
 public class Usuario {
